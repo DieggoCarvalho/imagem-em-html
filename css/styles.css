@@ -1,0 +1,137 @@
+* {
+	font-family: Arial;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.topo {
+	background-color: #353535;
+	height: 50px;
+}
+
+.topointerior {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	color: #ffffff;
+}
+
+.logo {
+	float:left;
+	font-size: 24px;
+	font-family: Defonarts;
+	text-transform: bold;
+	line-height: 50px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul,
+nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+	font-size: 14px;
+	cursor:pointer;
+}
+
+nav li:hover {
+	background-color: #3480c1;
+
+}
+
+nav li a {
+	text-decoration: none;
+	color: #fff;
+}
+nav li .ativo {
+	color: #ffc001;
+}
+
+.header {
+	height: 300px;
+	background-color: #347aba;
+
+
+}
+
+.headerint {
+	width: 1000px;
+	margin: auto;
+}
+
+.headerq1 {
+	/*width: 550px;*/
+	float: left;
+}
+
+.headerq2 {
+	/*width: 450px;*/
+	float: right;
+}
+.headerq2 img {
+	margin-right: 55px;
+}
+
+.frase1 {
+	font-size: 40px;
+	color: #ffffff;
+	padding-top: 60px;
+}
+.frase2 {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.buttom {
+	font-size: 20px;
+	background-color: #ffc001;
+	text-align: center;
+	line-height: 56px;
+	width: 282px;
+	height: 56px;
+	cursor: pointer;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.conteudoint {
+	width: 1000px;
+	margin: auto;
+}
+
+.outrosp {
+	height: 86px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 84px;
+	margin-top: 4px;
+}
+
+.fotos img {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+footer {
+	background-color: #347aba;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #ffffff;
+	margin-top: 40px;
+	/*poderia ser margin-bottom em conteudo
+	para afastar ele do rodape*/
+
+}
