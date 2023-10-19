@@ -1,0 +1,210 @@
+/* PHONES - TABLETS */
+@media only screen and (max-width: 768px) {
+    /* ================================== GERAL ================================== */
+    :root {
+        --header-height-600: 80px;
+    }
+    .container {
+        width: 85%;
+    }
+
+    /* ================================== HEADER ================================== */
+    header {
+        height: var(--header-height-600);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #347aba;
+        position: absolute;
+        right: 0;
+        top: var(--header-height-600);
+        width: 50%;
+        cursor: pointer;
+    }
+
+    nav ul li a {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .menuMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuMobile i {
+        display: flex;
+    }
+
+    /* ================================== SECTION: .BANNER ================================== */
+    .banner {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .introducao {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f1 {
+        margin-top: 0;
+    }
+
+    .f2 {
+        text-align: center;
+    }
+
+    .banner-img {
+        display: none;
+    }
+    /* .banner-img {
+        margin-right: 0;
+        flex: 1;
+        align-self: flex-end;
+    }
+
+    .banner-img img {
+        width: 100%;
+        display: inline-block;
+    } */
+
+    /* ================================== SECTION: .CONTENT ================================== */
+    
+    .content h1 {
+        margin: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .figures {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .figure {
+        /* width: 100%; */
+        background-repeat: no-repeat;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    #figure-img3 {
+        background-position: center bottom;
+    }
+
+    /* ================================== FOOTER ================================== */
+
+    footer {
+        display: flex;
+        line-height: 1rem;
+        height: 60px;
+    }
+
+}
+
+    /* LAPTOPS */
+    @media only screen and (min-width: 769px) and (max-width: 992px) {
+        /* ================================== GERAL ================================== */
+.container {
+    width: 85%;
+}
+
+    /* ================================== SECTION: .BANNER ================================== */
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .introducao {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f1 {
+        margin-top: 0;
+    }
+
+    .f2 {
+        text-align: center;
+    }
+
+    .banner-img {
+        margin: 0;
+        flex: 1;
+    }
+
+    .banner-img img {
+        width: 310px;
+    }
+
+
+        /* ================================== SECTION: .CONTENT ================================== */
+        .content {
+            margin: 0;
+        }
+        .content h1 {
+            margin: 0;
+        }
+        .figures {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        .figure {
+            width: 20%;
+            background-repeat: no-repeat;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+    
+        #figure-img3 {
+            background-position: center bottom;
+        }
+
+            /* ================================== FOOTER ================================== */
+
+    footer {
+        display: flex;
+        line-height: 1rem;
+        height: 60px;
+    }
+
+}

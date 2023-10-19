@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<title>Projeto Imagem em HTML</title>
 
 	<meta charset="UTF-8" />
-	<meta name="reply-to" content="dieggocarvalho@outlook.com" />
+	<meta name="reply-to" content="dieggo.dev@outlook.com" />
 	<meta name="developer" content="DieggoCarvalho" href="https://github.com/DieggoCarvalho/" />
 	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no" />
-
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/media.css" />
+	<link rel="shortcut icon" href="./assets/img/icon/favicon.png" type="image/png" />
 	<!-- <link rel="stylesheet" href="assets/css/reset.css" /> -->
 </head>
+
 <body>
 	<header>
-		<div class="container">
+		<div class="container flex">
 			<div class="logo">
 				<img src="assets/img/homem.png" alt="logo" />
 				<h1 id="logo">Logotipo</h1>
 			</div>
-			<nav class="menu">
-				<ul>
-					<li><a class="ativo" href="./">HOME</a></li>
-					<li><a href="#">SOBRE</a></li>
-					<li><a href="#">NOTÍCIAS</a></li>
-					<li><a href="#">PRODUTOS</a></li>
-					<li><a href="#">CONTATO</a></li>
-				</ul>
-			</nav>
+			<div class="menu">
+				<nav>
+					<div class="menuMobile">
+						<i class="fas fa-bars fa-lg"></i>
+					</div>
+					<ul>
+						<li><a class="ativo" href="./">HOME</a></li>
+						<li><a href="#">SOBRE</a></li>
+						<li><a href="#">NOTÍCIAS</a></li>
+						<li><a href="#">PRODUTOS</a></li>
+						<li><a href="#">CONTATO</a></li>
+					</ul>
+				</nav>
+			</div>
+
 		</div>
 	</header>
 	<section class="banner">
-		<div class="container">
+		<div class="container flex">
 			<div class="introducao">
 				<div class="frase f1">
 					Frase de EFEITO
@@ -79,10 +88,11 @@
 			<span class="copy">
 				by
 			</span>
-				DieggoCarvalho & Curso PHP ZP. Todos os direitos reservados.
+			DieggoCarvalho & Curso PHP ZP. Todos os direitos reservados. Img: <a href="https://br.freepik.com/fotos-gratis/de-negocio-feliz-unico-sucesso-olhando_1073413.htm#query=homem%20feliz%20bra%C3%A7os%20levantados&position=5&from_view=search&track=ais">Freepik</a>.
 		</div>
 	</footer>
-	<script src="assets/js/script.js"></script>
+	<script src="./assets/js/script.js"></script>
+	<script src="./assets/js/fontawesome.js"></script>
 </body>
 
 </html>

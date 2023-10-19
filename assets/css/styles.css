@@ -14,6 +14,7 @@
 	/* font-family:  Arial; */
 	/*font-family: 'Arial', sans-serif;*/
 	font-family: "Titillium Web";
+	box-sizing: border-box;
 }
 /* body { -> Aplicado no *
 	margin: 0;
@@ -32,7 +33,7 @@ header {
 	/* width: 100%;  */
 	/* max-width: 1000px; */
 	margin: auto; /* centralizar na página */ /* já zerou antes de outros elementos*/
-	width: 1000px;
+	width: 900px;
 	color: #ffffff;
 }
 
@@ -63,12 +64,21 @@ header {
 }
 
 /* nav */
-.menu {
+nav {
 	float: right;
+}
+
+.menuMobile {
+	display: none;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	float: left;
+	line-height: 100px;
 }
 /* nav ul,
 nav li  */
-.menu li {
+nav li {
 	list-style: none;
 	float: left;
 	/* margin: 0;
@@ -84,7 +94,7 @@ nav li  */
 } */
 
 /* nav li a  */
-.menu li a {
+nav li a {
 	text-decoration: none;
 	color: #fff;
 	/* propriedades antes do nav li */
@@ -96,13 +106,17 @@ nav li  */
 	font-size: 14px;
 }
 /* nav li:hover  */
-.menu li:hover {
+nav li:hover {
 	background-color: #3480c1;
 
 }
 /* nav li .ativo */
-.menu li .ativo {
+nav li .ativo {
 	color: #ffc001;
+}
+
+nav ul {
+	display: flex;
 }
 
 /* ================================== SECTION: .BANNER ================================== */
@@ -130,6 +144,7 @@ nav li  */
 /* .headerq2 img  */
 .banner-img {
 	margin-right: 55px;
+	margin-top: 20px; /*decorrente da troca de imagem */
 	float: right;
 }
 
@@ -219,7 +234,7 @@ nav li  */
 .figure {
 	display: inline-block;
 	height: 500px;
-	width: 220px;
+	width: 200px;
 	background-position: center;
 	position: relative;
 	cursor: pointer;
@@ -279,5 +294,10 @@ footer {
 }
 
 .copy {
+	color: #353535;
+}
+
+footer a {
+	text-decoration: none;
 	color: #353535;
 }
