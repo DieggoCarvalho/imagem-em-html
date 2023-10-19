@@ -6,9 +6,10 @@
   <img src="https://img.shields.io/github/stars/DieggoCarvalho/imagem-em-html?color=FFC001&style=for-the-badge"/>
   <img src="https://img.shields.io/github/languages/count/DieggoCarvalho/imagem-em-html?color=347ABA&style=for-the-badge"/>
   <img src="https://img.shields.io/github/languages/top/DieggoCarvalho/imagem-em-html?color=FFC001&style=for-the-badge"/>
-
+  <p align="center">
   <img src="https://raw.githubusercontent.com/DieggoCarvalho/imagem-em-html/html5/git_src/projetoimgsite_desc.png">
   <img src="https://raw.githubusercontent.com/DieggoCarvalho/imagem-em-html/html5/git_src/projetoimgsite_full.png">
+  </p>
 
   ---
   # ℹ️ *SOBRE*
